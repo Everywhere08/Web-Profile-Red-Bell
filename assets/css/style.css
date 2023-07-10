@@ -9,9 +9,52 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"),
+    url("../../assets/font/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: local("Roboto-Medium"),
+    url("../../assets/font/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"),
+    url("../../assets/font/Roboto-Regular.ttf") format("truetype");
+}
+
+.font-face-ro-bold {
+  font-family: "Roboto-Bold";
+}
+
+.font-face-ro-med {
+  font-family: "Roboto-Medium";
+}
+
+.font-face-ro {
+  text-align: justify;
+  font-family: "Roboto-Regular";
+  
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+}
+
+.carousel {
+  max-width: 600px; /* Adjust the max-width to your desired size */
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-height: 600px; /* Adjust the max-height to your desired size */
+  object-fit: cover;
 }
 
 a {
@@ -43,9 +86,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #85b0be;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 4px;
   transition: all 0.4s;
 }
@@ -342,7 +384,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/PASTA\,\ ESSENCE\,\ COLOUR.png") top center;
+  background: url("../img/PASTA\,\ ESSENCE\,\ COLOUR\ \(3\).png") top center;
   background-size: cover;
   position: relative;
 }
@@ -433,7 +475,7 @@ section {
 }
 
 .section-bg {
-  background-color: #094d6e;
+  background-color: #eaf2f8;
 }
 
 .section-bg1 {
@@ -1283,9 +1325,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  color: #fff;
-  font-size: 14px;
+  width: 100%;
+  height: 80vh;
+  background: url("../img/PASTA\,\ ESSENCE\,\ COLOUR\ \(3\).png") top center;
+  background-size: cover;
   position: relative;
 }
 
