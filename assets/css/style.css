@@ -433,7 +433,19 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fa;
+  background-color: #094d6e;
+}
+
+.section-bg1 {
+  background-color: #87ceeb;
+}
+
+.section-bg2 {
+  background-color:  #fdfd96;
+}
+
+.section-bg3 {
+  background-color: #ffc0cb; /* Change this to your desired pink color */
 }
 
 .section-title {
